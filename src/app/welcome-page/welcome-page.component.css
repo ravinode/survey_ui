@@ -1,0 +1,110 @@
+#fade h1 {
+    font-size: 40px;
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+    color: #FF6000;
+    font-family: Helvetica,Helvetica,Arial,sans-serif;
+    text-align: center;
+    
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color:blue;
+    text-align: center;
+}
+
+.logo-img
+{
+    text-align : center;
+    -webkit-filter: blur(05px);
+    width: 100%;
+}
+
+.btn-primary {
+    display: inline-block;
+    min-width: 74px;
+    max-width: 264px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: 0 none;
+    padding: 8px 20px;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 20px;
+    font-size: 1.1875em;
+    background: #ff6000;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    animation: fadein 3s;
+    -moz-animation: fadein 3s; /* Firefox */
+    -webkit-animation: fadein 5s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+    color: #fff;
+    background-color: #f60;
+    border-color: #e65c00;
+}
+
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@media(max-width:768px)
+{
+    .btn-primary
+    {
+        font-size: .6em;
+    }
+    #fade h1
+    {
+        font-size: 15px;
+    }
+    .logo-img img
+    {
+    text-align : center
+
+    }
+    .logo-img img
+{
+    text-align : center;
+width : 50%;
+
+}
+
+}
